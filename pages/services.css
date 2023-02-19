@@ -13,22 +13,17 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  
   }
   .bgimg-1 {
     background-image: url("../assets/Frame\ 2.jpg");
     min-height: 70%;
   }
-  
   .bgimg-2 {
     background-image: url("../assets/serve.jpg");
-    min-height: 30%;
-
-
+    min-height: 40%;
   }
-  
   .bgimg-3 {
-    background-image: url("img_parallax3.jpg");
+    background-image: url("../assets/lets\ work1.jpg");
     min-height: 400px;
   }
   
@@ -55,6 +50,24 @@
     font-size: 25px;
     letter-spacing: 10px;
   }
+  .caption span.border3{
+    background-color: #111;
+    color: #dcdabc;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  a:visited {
+    color: #c095ba;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #dad6a1;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
   
   .title1{
     padding-top: 30px;
