@@ -59,26 +59,39 @@
     font-family:chat;
     src: url(../assets/Lucotecia\ Black.otf);
 }
-.test{
+.container{
     display: flex;
-    justify-content: space-around;
     flex-direction: row;
 }
 .box1{
     color: #000000;
     background-color:#c095ba;
-    text-align:center;padding:50px 80px;
+    text-align:center;
     text-align: justify;
+    border-right: 2px solid black;
+    padding:5px 10px;
+    flex: 1;
 }
 .box2{
     color: #000000;
     background-color:#bf75b5;
-    text-align:center;padding:50px 80px;
+    text-align:center;
+    padding:5px 10px;
     text-align: justify;
+    border-right: 2px solid black;
+    flex:1
 }
 .box3{
     color: #000000;
     background-color:#cb68be;
-    text-align:center;padding:50px 80px;
+    text-align:center;
+    padding:5px 10px;
     text-align: justify;
+    border-right: 2px solid black;
+    flex:1
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    padding-left: 150px;;
 }
