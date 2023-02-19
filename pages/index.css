@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"); */
 
 body {
   margin: 0;
   padding: 0;
-  font-family:"roboto" ;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .main {
@@ -47,9 +47,7 @@ body {
   background-image: url("../assets/solid-color-image.png");
 }
 
-.header3 h1,p {
-  color: #ff8bff !important;
-}
+
 
 .title {
   display: flex;
@@ -69,10 +67,11 @@ body {
 
  p {
   margin: 0;
-  width: 25rem;
+  width: 40rem;
+  text-align: center;
   color: #fff;
   font-size: larger;
-  font-family: "Roboto", sans-serif;
+  
 }
 
 .button {
