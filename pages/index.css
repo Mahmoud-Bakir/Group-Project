@@ -1,9 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"); */
 
 body {
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
   font-family: "roboto";
+=======
+  font-family: "Courier New", Courier, monospace;
+>>>>>>> f63fd769a908be3450e014f1e84be9294f5f1a1f
 }
 
 .main {
@@ -49,10 +53,14 @@ body {
   background-image: url("../assets/solid-color-image.png");
 }
 
+<<<<<<< HEAD
 .header3 h1,
 p {
   color: #ff8bff !important;
 }
+=======
+
+>>>>>>> f63fd769a908be3450e014f1e84be9294f5f1a1f
 
 .title {
   display: flex;
@@ -72,10 +80,11 @@ h1 {
 
 p {
   margin: 0;
-  width: 25rem;
+  width: 40rem;
+  text-align: center;
   color: #fff;
   font-size: larger;
-  font-family: "Roboto", sans-serif;
+  
 }
 
 .button {
