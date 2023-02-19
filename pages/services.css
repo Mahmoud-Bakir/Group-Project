@@ -3,6 +3,7 @@
     margin: 0;
     font: 400 15px/1.8 "Lato", sans-serif;
     color: #777;
+    
   }
   
   .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -12,22 +13,17 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  
   }
   .bgimg-1 {
     background-image: url("../assets/Frame\ 2.jpg");
     min-height: 70%;
   }
-  
   .bgimg-2 {
     background-image: url("../assets/serve.jpg");
-    min-height: 20%;
-
-
+    min-height: 40%;
   }
-  
   .bgimg-3 {
-    background-image: url("img_parallax3.jpg");
+    background-image: url("../assets/lets\ work1.jpg");
     min-height: 400px;
   }
   
@@ -47,17 +43,64 @@
     font-size: 25px;
     letter-spacing: 10px;
   }
+  .caption span.border2 {
+    background-color: #111;
+    color: #5ca7e8;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  .caption span.border3{
+    background-color: #111;
+    color: #dcdabc;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
+  a:visited {
+    color: #c095ba;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #dad6a1;
+    background-color: transparent;
+    text-decoration: underline;
+  }
   
-  h3 {
+  
+  .title1{
+    padding-top: 30px;
     letter-spacing: 5px;
     text-transform: uppercase;
     font: 20px "Lato", sans-serif;
     color: #111;
+    text-align: center;
+  }
+  .title2{
+    padding-top: 10px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+    text-align: center;
+  }
+  .title3{
+    padding-top:0px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+    text-align: center;
   }
   
 @font-face {
     font-family:chat;
     src: url(../assets/Lucotecia\ Black.otf);
+}
+@font-face {
+    font-family:para;
+    src: url(../assets/TYPEWR__.TTF);
 }
 .container{
     display: flex;
@@ -90,8 +133,26 @@
     border-right: 2px solid black;
     flex:1
 }
-.logo{
+.logo1{
     height: 100px;
     width: 100px;
-    padding-left: 150px;;
+    padding-left: 180px;
+}
+.logo2{
+  height: 80x;
+  width: 150px;
+  padding-left: 160px;
+}
+.logo3{
+  height: 130px;
+  width: 150px;
+  padding-left: 160px;
+}
+p{ font-family: para;
+    letter-spacing: 1px;
+    font-size:large;
+    color: #111;
+    padding-left:20px;
+    padding-right: 20px;
+
 }
