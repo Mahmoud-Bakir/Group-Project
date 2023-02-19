@@ -11,6 +11,41 @@ body {
   width: 100%;
 }
 
+.nav {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(222, 55, 82);
+  display: flex;
+  justify-content: flex-end;
+}
+
+ul {
+  width: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.anc {
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.anc::after {
+  content: "";
+  height: 4px;
+  width: 0%;
+  transition: 0.5s;
+  display: block;
+  margin-top: 15px;
+  background-color: rgb(255, 255, 255);
+}
+
+.anc:hover::after {
+  width: 100%;
+}
+
 header {
   position: relative;
   display: flex;
@@ -78,6 +113,9 @@ h1 {
 }
 
 section {
+  background-image: url(../assets/about\ bg2.jpg);
+  background-position: center;
+  background-size: cover;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -93,25 +131,11 @@ section {
   overflow-y: hidden;
   overflow-x: hidden;
   transition: 0.5s;
-}
-
-.ai::after {
-  content: "";
-  height: 20px;
-  width: 100%;
-  transition: 0.5s;
-  display: block;
-  margin: auto;
-  background-color: rgb(202, 51, 51);
-  font-size: large;
-}
-
-.ai:hover::after {
-  width: 100%;
+  border: 2px solid white;
 }
 
 .ai:hover {
-  border: 4px solid rgb(159, 45, 45);
+  border: 8px solid rgb(243, 0, 61);
   height: 60%;
   width: 30%;
   transition: 0.5s;
