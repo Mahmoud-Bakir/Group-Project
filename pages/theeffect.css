@@ -28,18 +28,19 @@ body{
 .jobs ,.medical,.automotive,.CyberSecurity , .E-Commerce{
     width: 100%;
     background: gray;
-   
     display: flex;
   background-size: cover;
-
   justify-content: center;
   flex-direction: column;
   align-items: center;
   height: 40rem;
- 
   background-attachment: fixed;
   background-repeat: no-repeat;
 
+}
+.theEffectSection img{
+    width: 4rem;
+  margin-right: 2rem;
 }
 .automotive{
     background-image: url("../assets/automotive_photo.jpg");
@@ -93,6 +94,7 @@ font-weight: bold;
     transition: all 0.3s ease-in-out;
     user-select: none;
     font-size: 13px;
+    margin-left: 50%;
    }
    
    .fancy::before {
